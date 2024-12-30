@@ -1,5 +1,7 @@
 # WordPress MCP Server
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A Model Context Protocol (MCP) server that enables AI assistants to interact with WordPress sites through the WordPress REST API. This server provides tools for managing WordPress content programmatically, including creating, retrieving, and updating posts.
 
 ## Features
@@ -20,7 +22,7 @@ A Model Context Protocol (MCP) server that enables AI assistants to interact wit
 
 1. Clone this repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/stefans71/wordpress-mcp-server.git
 cd wordpress-server
 ```
 
@@ -193,8 +195,8 @@ To contribute to the development:
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. By contributing to this project, you agree to abide by its terms.

@@ -1,6 +1,7 @@
 # WordPress MCP Server
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![smithery badge](https://smithery.ai/badge/wordpress-server)](https://smithery.ai/server/wordpress-server)
 
 A Model Context Protocol (MCP) server that enables AI assistants to interact with WordPress sites through the WordPress REST API. This server provides tools for managing WordPress content programmatically, including creating, retrieving, and updating posts.
 
@@ -20,6 +21,15 @@ A Model Context Protocol (MCP) server that enables AI assistants to interact wit
 
 ## Installation
 
+### Installing via Smithery
+
+To install WordPress Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/wordpress-server):
+
+```bash
+npx -y @smithery/cli install wordpress-server --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/stefans71/wordpress-mcp-server.git
